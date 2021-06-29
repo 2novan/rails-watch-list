@@ -1,0 +1,9 @@
+<div class="form-group">
+<%= simple_form_for [@list, @bookmark] do |f|  %>
+<%= f.input :comment %>
+<%= f.association :movie %>
+
+<br>
+<%= f.submit %>
+<% end %>
+</div>
