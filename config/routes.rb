@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: 'lists#index'
   resources :lists
   # get "/lists", to: "lists#index"
   # get "/lists/new", to: "lists#new"
